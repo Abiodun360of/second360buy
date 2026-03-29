@@ -1,0 +1,21 @@
+packages:
+  "framer-motion": "For page transitions, smooth interactions, and staggered list animations"
+  "react-hook-form": "For robust admin form state management"
+  "@hookform/resolvers": "For integrating Zod validation with react-hook-form"
+  "zod": "For strict form schema validation"
+  "date-fns": "For formatting product creation dates elegantly"
+  "clsx": "For merging tailwind classes conditionally"
+  "tailwind-merge": "For merging tailwind classes without conflicts"
+
+images:
+  - path: "artifacts/second360buy/public/images/logo.png"
+    description: "A clean, modern, minimalistic logo mark for a professional second-hand marketplace called Second360Buy. Blue and white color scheme, abstract geometric shape representing a box or cycle."
+    aspect_ratio: "1:1"
+  - path: "artifacts/second360buy/public/images/hero-bg.png"
+    description: "Abstract, very subtle, soft gradient mesh background in extremely light ice blue and white, clean corporate marketplace aesthetic."
+    aspect_ratio: "16:9"
+
+notes:
+  - Using generated hooks from @workspace/api-client-react
+  - Admin login uses simple session cookies handled by backend
+  - Images in forms are handled as comma-separated URLs for simplicity
